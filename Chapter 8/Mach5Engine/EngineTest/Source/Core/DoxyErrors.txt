@@ -1,0 +1,92 @@
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5CommandTypes.h:3: warning: the name `M5CommmandTypes.h' supplied as the second argument in the \file statement is not an input file
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:22: warning: Compound ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/SetFullscreenCommand.h:21: warning: Compound SetFullscreenCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:25: warning: Compound GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ResumeStageCommand.h:20: warning: Compound ResumeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Factory.h:20: warning: Compound M5Factory is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:20: warning: Compound M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/QuitCommand.h:18: warning: Compound QuitCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:22: warning: Compound PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:21: warning: Compound ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:18: warning: Member DrawSpace (enumeration) of file GfxComponent.h is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:24: warning: Member Execute(void) (function) of class ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:25: warning: Member Clone(void) const  (function) of class ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:26: warning: Member FromFile(M5IniFile &) (function) of class ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:28: warning: Member m_width (variable) of class ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeResolutionCommand.h:29: warning: Member m_height (variable) of class ChangeResolutionCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:24: warning: Member ChangeStageCommand(M5StageTypes nextStage) (function) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:26: warning: Member Execute(void) (function) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:27: warning: Member SetNextStage(M5StageTypes nextStage) (function) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:28: warning: Member Clone(void) const  (function) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:29: warning: Member FromFile(M5IniFile &) (function) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:31: warning: Member m_stage (variable) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ChangeStageCommand.h:32: warning: Member m_menuFile (variable) of class ChangeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ColliderComponent.h:26: warning: Member TestCollision(const ColliderComponent *pOther) (function) of class ColliderComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ColliderComponent.h:28: warning: Member m_radius (variable) of class ColliderComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:39: warning: Member m_texScaleX (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:40: warning: Member m_texScaleY (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:41: warning: Member m_texTransX (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:42: warning: Member m_texTransY (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:43: warning: Member m_drawSpace (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:34: warning: return type of member GfxComponent::GetTextureID is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.cpp:121: warning: argument 'id' of command @param is not found in the argument list of GfxComponent::SetTexture(const char *fileName)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:35: warning: The following parameters of GfxComponent::SetTexture(const char *fileName) are not documented:
+  parameter 'fileName'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5TBuilder.h:23: warning: Member Build(void)=0 (function) of class M5BaseTBuilder is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:23: warning: Member Execute(void)=0 (function) of class M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:24: warning: Member FromFile(M5IniFile &) (function) of class M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:25: warning: Member Clone(void) const  =0 (function) of class M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5GameData.h:25: warning: Member maxLevels (variable) of class M5GameData is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5GameData.h:26: warning: Member menuFile (variable) of class M5GameData is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5ObjectManager.h:64: warning: return type of member M5ObjectManager::CreateCommand is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5ObjectManager.h:54: warning: return type of member M5ObjectManager::CreateComponent is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5ObjectManager.cpp:135: warning: argument 'destroyPause' of command @param is not found in the argument list of M5ObjectManager::DestroyAllObjects(bool destroyPaused=false)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5ObjectManager.h:44: warning: The following parameters of M5ObjectManager::DestroyAllObjects(bool destroyPaused=false) are not documented:
+  parameter 'destroyPaused'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:31: warning: Member RegisterCollider(ColliderComponent *pCollider) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:33: warning: Member UnregisterCollider(ColliderComponent *pCollider) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:35: warning: Member GetCollisionPairs(CollisionPairs &pairs) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:37: warning: Member AddCollisionPair(int firstID, int secondID) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:40: warning: Member Update(void) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:41: warning: Member Pause(void) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:42: warning: Member Resume(void) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.cpp:63: warning: argument 'pGData' of command @param is not found in the argument list of M5StageManager::Init(const M5GameData &gameData, int framesPerSecond)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.cpp:63: warning: argument 'gameDataSize' of command @param is not found in the argument list of M5StageManager::Init(const M5GameData &gameData, int framesPerSecond)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.cpp:63: warning: argument 'framePerSecond' of command @param is not found in the argument list of M5StageManager::Init(const M5GameData &gameData, int framesPerSecond)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.h:55: warning: The following parameters of M5StageManager::Init(const M5GameData &gameData, int framesPerSecond) are not documented:
+  parameter 'gameData'
+  parameter 'framesPerSecond'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.h:47: warning: The following parameters of M5StageManager::PauseAndSetNextStage(M5StageTypes nextStage, bool drawPaused=false) are not documented:
+  parameter 'drawPaused'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:36: warning: Member M5StateMachine(M5ComponentTypes type) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:39: warning: Member SetNextState(M5State *pNext) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Vec2.h:108: warning: Member operator>>(std::istream &is, M5Vec2 &rhs) (friend) of class M5Vec2 is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Vec2.h:109: warning: Member operator<<(std::ostream &os, const M5Vec2 &rhs) (friend) of class M5Vec2 is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:27: warning: return type of member OutsideViewKillComponent::Clone is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:26: warning: parameters of member OutsideViewKillComponent::Update are not (all) documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:24: warning: Member PauseStageCommand(M5StageTypes nextStage) (function) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:26: warning: Member Execute(void) (function) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:27: warning: Member SetNextStage(M5StageTypes nextStage) (function) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:28: warning: Member Clone(void) const  (function) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:29: warning: Member FromFile(M5IniFile &) (function) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:31: warning: Member m_stage (variable) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:32: warning: Member m_menuFile (variable) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/PauseStageCommand.h:33: warning: Member m_drawPaused (variable) of class PauseStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/QuitCommand.h:20: warning: Member Execute(void) (function) of class QuitCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/QuitCommand.h:21: warning: Member Clone(void) const  (function) of class QuitCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:24: warning: Member FromFile(M5IniFile &) (function) of class M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/RepositionComponent.h:31: warning: Member m_xScale (variable) of class RepositionComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/RepositionComponent.h:32: warning: Member m_yScale (variable) of class RepositionComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/RepositionComponent.h:28: warning: return type of member RepositionComponent::Clone is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/RepositionComponent.h:27: warning: parameters of member RepositionComponent::Update are not (all) documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ResumeStageCommand.h:22: warning: Member Execute(void) (function) of class ResumeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ResumeStageCommand.h:23: warning: Member Clone(void) const  (function) of class ResumeStageCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Command.h:24: warning: Member FromFile(M5IniFile &) (function) of class M5Command is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/SetFullscreenCommand.h:24: warning: Member Execute(void) (function) of class SetFullscreenCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/SetFullscreenCommand.h:25: warning: Member Clone(void) const  (function) of class SetFullscreenCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/SetFullscreenCommand.h:26: warning: Member FromFile(M5IniFile &) (function) of class SetFullscreenCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/SetFullscreenCommand.h:28: warning: Member m_isFullscreen (variable) of class SetFullscreenCommand is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/UIButtonComponent.h:33: warning: Member m_pOnClick (variable) of class UIButtonComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/UIButtonComponent.h:30: warning: return type of member UIButtonComponent::Clone is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/UIButtonComponent.h:28: warning: parameters of member UIButtonComponent::Update are not (all) documented
+error: failed to run html help compiler on index.hhp

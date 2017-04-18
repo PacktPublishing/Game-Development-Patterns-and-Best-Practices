@@ -1,0 +1,22 @@
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:25: warning: Compound GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Factory.h:20: warning: Compound M5Factory is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:18: warning: Member DrawSpace (enumeration) of file GfxComponent.h is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ColliderComponent.h:26: warning: Member TestCollision(const ColliderComponent *pOther) (function) of class ColliderComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ColliderComponent.h:30: warning: Member m_radius (variable) of class ColliderComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/ColliderComponent.h:31: warning: Member m_isResizeable (variable) of class ColliderComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/GfxComponent.h:37: warning: Member m_drawSpace (variable) of class GfxComponent is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:31: warning: Member RegisterCollider(ColliderComponent *pCollider) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:33: warning: Member UnregisterCollider(ColliderComponent *pCollider) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:35: warning: Member GetCollisionPairs(CollisionPairs &pairs) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:37: warning: Member AddCollisionPair(int firstID, int secondID) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Phy.h:40: warning: Member Update(void) (function) of class M5Phy is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.cpp:62: warning: argument 'framePerSecond' of command @param is not found in the argument list of M5StageManager::Init(const M5GameData *pGData, int gameDataSize, int framesPerSecond)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.h:55: warning: The following parameters of M5StageManager::Init(const M5GameData *pGData, int gameDataSize, int framesPerSecond) are not documented:
+  parameter 'framesPerSecond'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:36: warning: Member M5StateMachine(M5ComponentTypes type) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:39: warning: Member SetNextState(M5State *pNext) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Vec2.h:108: warning: Member operator>>(std::istream &is, M5Vec2 &rhs) (friend) of class M5Vec2 is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5Vec2.h:109: warning: Member operator<<(std::ostream &os, const M5Vec2 &rhs) (friend) of class M5Vec2 is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:27: warning: return type of member OutsideViewKillComponent::Clone is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:26: warning: parameters of member OutsideViewKillComponent::Update are not (all) documented
+error: failed to run html help compiler on index.hhp

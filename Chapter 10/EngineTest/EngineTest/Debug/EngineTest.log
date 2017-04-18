@@ -1,0 +1,44 @@
+﻿  CreateStageEnum
+  CreateComponentEnum
+  CreateRegisterStages
+  CreateRegisterComponent
+  CreateArcheTypeEnum
+  CreateRegisterArcheType
+  ParticleComponent.cpp
+  Generating Code...
+  Compiling...
+  M5App.cpp
+  Generating Code...
+  Compiling...
+  M5ObjectManager.cpp
+  Generating Code...
+  Compiling...
+  M5StageManager.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  SpaceShooterHelp.cpp
+  ShrinkComponent.cpp
+  PlayerInputComponent.cpp
+  WrapComponent.cpp
+  OutsideViewKillComponent.cpp
+  M5StateMachine.cpp
+  M5Phy.cpp
+  M5Object.cpp
+  M5Gfx.cpp
+  M5ComponentFactory.cpp
+  M5Component.cpp
+  GfxComponent.cpp
+  ColliderComponent.cpp
+  ClampComponent.cpp
+  ChasePlayerComponent.cpp
+  BulletComponent.cpp
+  M5ObjectPool.cpp
+  SplashStage.cpp
+  PauseStage.cpp
+  GamePlayStage.cpp
+  M5StageFactory.cpp
+  Main.cpp
+  Skipping... (no relevant changes detected)
+  RandomGoComponent.cpp
+  EngineTest.vcxproj -> C:\Users\John\Downloads\Mach5-master (4)\Mach5-master\EngineTest\Debug\EngineTest.exe
+  EngineTest.vcxproj -> C:\Users\John\Downloads\Mach5-master (4)\Mach5-master\EngineTest\Debug\EngineTest.pdb (Full PDB)

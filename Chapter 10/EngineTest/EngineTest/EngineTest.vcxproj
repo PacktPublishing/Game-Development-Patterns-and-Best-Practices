@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40AB20EB-6D92-4A04-9C15-0495F93FF387}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EngineTest</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glu32.lib;Xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\gl</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>PreBuild.bat</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glu32.lib;Xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\gl</AdditionalLibraryDirectories>
+    </Link>
+    <PreBuildEvent>
+      <Command>PreBuild.bat</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>PostBuild.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="M5ObjectPool.cpp" />
+    <ClCompile Include="Source\BulletComponent.cpp" />
+    <ClCompile Include="Source\ChasePlayerComponent.cpp" />
+    <ClCompile Include="Source\Core\ClampComponent.cpp" />
+    <ClCompile Include="Source\Core\ColliderComponent.cpp" />
+    <ClCompile Include="Source\Core\M5Phy.cpp" />
+    <ClCompile Include="Source\Core\M5StateMachine.cpp" />
+    <ClCompile Include="Source\Core\GfxComponent.cpp" />
+    <ClCompile Include="Source\Core\M5App.cpp" />
+    <ClCompile Include="Source\Core\M5Component.cpp" />
+    <ClCompile Include="Source\Core\M5ComponentFactory.cpp" />
+    <ClCompile Include="Source\Core\M5Debug.cpp" />
+    <ClCompile Include="Source\Core\M5Gfx.cpp" />
+    <ClCompile Include="Source\Core\M5IniFile.cpp" />
+    <ClCompile Include="Source\Core\M5Input.cpp" />
+    <ClCompile Include="Source\Core\M5Intersect.cpp" />
+    <ClCompile Include="Source\Core\M5Math.cpp" />
+    <ClCompile Include="Source\Core\M5Mtx44.cpp" />
+    <ClCompile Include="Source\Core\M5Object.cpp" />
+    <ClCompile Include="Source\Core\M5ObjectManager.cpp" />
+    <ClCompile Include="Source\Core\M5Random.cpp" />
+    <ClCompile Include="Source\Core\M5ResourceManager.cpp" />
+    <ClCompile Include="Source\Core\M5StageFactory.cpp" />
+    <ClCompile Include="Source\Core\M5StageManager.cpp" />
+    <ClCompile Include="Source\Core\M5Timer.cpp" />
+    <ClCompile Include="Source\Core\M5Vec2.cpp" />
+    <ClCompile Include="Source\Core\OutsideViewKillComponent.cpp" />
+    <ClCompile Include="Source\Core\WrapComponent.cpp" />
+    <ClCompile Include="Source\GamePlayStage.cpp" />
+    <ClCompile Include="Source\ParticleComponent.cpp" />
+    <ClCompile Include="Source\PauseStage.cpp" />
+    <ClCompile Include="Source\SpaceShooterHelp.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\PlayerInputComponent.cpp" />
+    <ClCompile Include="Source\RandomGoComponent.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\ShrinkComponent.cpp" />
+    <ClCompile Include="Source\SplashStage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="M5ObjectPool.h" />
+    <ClInclude Include="Source\BulletComponent.h" />
+    <ClInclude Include="Source\ChasePlayerComponent.h" />
+    <ClInclude Include="Source\Core\ClampComponent.h" />
+    <ClInclude Include="Source\Core\ColliderComponent.h" />
+    <ClInclude Include="Source\Core\M5Factory.h" />
+    <ClInclude Include="Source\Core\M5Phy.h" />
+    <ClInclude Include="Source\Core\M5StateMachine.h" />
+    <ClInclude Include="Source\Core\GfxComponent.h" />
+    <ClInclude Include="Source\Core\M5App.h" />
+    <ClInclude Include="Source\Core\M5ArcheTypes.h" />
+    <ClInclude Include="Source\Core\M5Component.h" />
+    <ClInclude Include="Source\Core\M5ComponentBuilder.h" />
+    <ClInclude Include="Source\Core\M5ComponentFactory.h" />
+    <ClInclude Include="Source\Core\M5ComponentTypes.h" />
+    <ClInclude Include="Source\Core\M5Debug.h" />
+    <ClInclude Include="Source\Core\M5GameData.h" />
+    <ClInclude Include="Source\Core\M5Gfx.h" />
+    <ClInclude Include="Source\Core\M5IniFile.h" />
+    <ClInclude Include="Source\Core\M5Input.h" />
+    <ClInclude Include="Source\Core\M5Intersect.h" />
+    <ClInclude Include="Source\Core\M5Math.h" />
+    <ClInclude Include="Source\Core\M5Mtx44.h" />
+    <ClInclude Include="Source\Core\M5Object.h" />
+    <ClInclude Include="Source\Core\M5ObjectManager.h" />
+    <ClInclude Include="Source\Core\M5Random.h" />
+    <ClInclude Include="Source\Core\M5ResourceManager.h" />
+    <ClInclude Include="Source\Core\M5Stage.h" />
+    <ClInclude Include="Source\Core\M5StageBuilder.h" />
+    <ClInclude Include="Source\Core\M5StageFactory.h" />
+    <ClInclude Include="Source\Core\M5StageManager.h" />
+    <ClInclude Include="Source\Core\M5StageTypes.h" />
+    <ClInclude Include="Source\Core\M5Timer.h" />
+    <ClInclude Include="Source\Core\M5Vec2.h" />
+    <ClInclude Include="Source\Core\OutsideViewKillComponent.h" />
+    <ClInclude Include="Source\Core\WrapComponent.h" />
+    <ClInclude Include="Source\GamePlayStage.h" />
+    <ClInclude Include="Source\ParticleComponent.h" />
+    <ClInclude Include="Source\PauseStage.h" />
+    <ClInclude Include="Source\SpaceShooterHelp.h" />
+    <ClInclude Include="Source\PlayerInputComponent.h" />
+    <ClInclude Include="Source\RandomGoComponent.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Source\RegisterArcheTypes.h" />
+    <ClInclude Include="Source\RegisterComponents.h" />
+    <ClInclude Include="Source\RegisterStages.h" />
+    <ClInclude Include="Source\ShrinkComponent.h" />
+    <ClInclude Include="Source\SplashStage.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

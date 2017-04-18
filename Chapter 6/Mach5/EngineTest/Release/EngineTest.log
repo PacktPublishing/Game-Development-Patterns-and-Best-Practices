@@ -1,0 +1,49 @@
+﻿  CreateStageEnum
+  CreateComponentEnum
+  CreateCommandEnum
+  CreateRegisterStages
+  CreateRegisterComponent
+  CreateArcheTypeEnum
+  CreateRegisterArcheType
+  ChasePlayerComponent.cpp
+  ChangeStageCommand.cpp
+  QuitCommand.cpp
+  UIButtonComponent.cpp
+  ClampComponent.cpp
+  ColliderComponent.cpp
+  M5Phy.cpp
+  M5StateMachine.cpp
+  GfxComponent.cpp
+  M5App.cpp
+  M5Component.cpp
+  M5ComponentFactory.cpp
+  M5Gfx.cpp
+  M5Object.cpp
+  M5ObjectManager.cpp
+  M5StageFactory.cpp
+  M5StageManager.cpp
+  OutsideViewKillComponent.cpp
+  WrapComponent.cpp
+  GamePlayStage.cpp
+  Compiling...
+  GrowToSizeComponent.cpp
+  MainMenuStage.cpp
+  MenuSpawnerComponent.cpp
+  PauseStage.cpp
+  RegisterArcheTypes.cpp
+  RegisterComponents.cpp
+  RegisterStages.cpp
+  SpaceShooterHelp.cpp
+  Main.cpp
+  PlayerInputComponent.cpp
+  RandomGoComponent.cpp
+  ShrinkComponent.cpp
+  SplashStage.cpp
+  Generating code
+  8 of 2969 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    5 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  EngineTest.vcxproj -> C:\Users\Matt\Dropbox\Matt\Personal\Mach5\EngineTest\Release\EngineTest.exe
+  EngineTest.vcxproj -> C:\Users\Matt\Dropbox\Matt\Personal\Mach5\EngineTest\Release\EngineTest.pdb (Full PDB)
+  Running Doxygen

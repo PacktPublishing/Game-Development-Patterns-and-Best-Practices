@@ -1,0 +1,53 @@
+﻿  CreateStageEnum
+  CreateRegisterStages
+  CreateCommandEnum
+  CreateRegisterCommand
+  CreateComponentEnum
+  CreateRegisterComponent
+  CreateArcheTypeEnum
+  CreateRegisterArcheType
+  RegisterStages.cpp
+  RegisterComponents.cpp
+  RegisterCommands.cpp
+  RegisterArcheTypes.cpp
+  M5IniFile.cpp
+  Generating Code...
+  Compiling...
+  SplashStage.cpp
+  SpaceShooterHelp.cpp
+  PlayerInputComponent.cpp
+  MenuStage.cpp
+  MenuSpawnerComponent.cpp
+  Main.cpp
+  GrowToSizeComponent.cpp
+  GamePlayStage.cpp
+  UIButtonComponent.cpp
+  SetFullscreenCommand.cpp
+  RepositionComponent.cpp
+  PauseStageCommand.cpp
+  M5ObjectManager.cpp
+  M5Object.cpp
+  GfxComponent.cpp
+  ColliderComponent.cpp
+  ChangeStageCommand.cpp
+  ChangeResolutionCommand.cpp
+  ChasePlayerComponent.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  ShrinkComponent.cpp
+  WrapComponent.cpp
+  ResumeStageCommand.cpp
+  QuitCommand.cpp
+  OutsideViewKillComponent.cpp
+  M5StateMachine.cpp
+  M5StageManager.cpp
+  M5StageFactory.cpp
+  M5Phy.cpp
+  M5Gfx.cpp
+  M5ComponentFactory.cpp
+  M5Component.cpp
+  M5App.cpp
+  ClampComponent.cpp
+  RandomGoComponent.cpp
+  EngineTest.vcxproj -> C:\Users\Matt\Dropbox\Matt\Personal\Mach5\EngineTest\Debug\EngineTest.exe
+  EngineTest.vcxproj -> C:\Users\Matt\Dropbox\Matt\Personal\Mach5\EngineTest\Debug\EngineTest.pdb (Full PDB)

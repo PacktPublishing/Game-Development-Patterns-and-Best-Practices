@@ -1,0 +1,8 @@
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.cpp:45: warning: argument 'framePerSecond' of command @param is not found in the argument list of M5StageManager::Init(const M5GameData *pGData, int gameDataSize, int framesPerSecond)
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StageManager.h:58: warning: The following parameters of M5StageManager::Init(const M5GameData *pGData, int gameDataSize, int framesPerSecond) are not documented:
+  parameter 'framesPerSecond'
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:36: warning: Member M5StateMachine(M5ComponentTypes type) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/M5StateMachine.h:39: warning: Member SetNextState(M5State *pNext) (function) of class M5StateMachine is not documented.
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:27: warning: return type of member OutsideViewKillComponent::Clone is not documented
+C:/Users/Matt/Dropbox/Matt/Personal/Mach5/EngineTest/EngineTest/Source/Core/OutsideViewKillComponent.h:26: warning: parameters of member OutsideViewKillComponent::Update are not (all) documented
+error: failed to run html help compiler on index.hhp
