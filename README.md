@@ -1,3 +1,7 @@
+## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B05906?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
+-----
+For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
+
 # Game-Developmen-Patterns-and-Best-Practices
 This is the code repository for [Game Developmen Patterns and Best Practices](https://www.packtpub.com/game-development/game-development-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781787127838), published by [Packt](https://www.packtpub.com/). All the example workflows that are mentioned in the book are present in the package.
 
